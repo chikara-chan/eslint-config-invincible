@@ -69,7 +69,10 @@ module.exports = {
     "no-useless-return": ["error"],
     "no-var": ["error"],
     "no-whitespace-before-property": ["error"],
-    "object-curly-newline": ["error"],
+    "object-curly-newline": ["error", {
+      "ObjectExpression": "always",
+      "ObjectPattern": "never"
+    }],
     "object-curly-spacing": ["error"],
     "object-shorthand": ["error"],
     "operator-assignment": ["error"],
