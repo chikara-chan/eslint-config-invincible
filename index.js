@@ -41,7 +41,8 @@ module.exports = {
     "keyword-spacing": ["error"],
     "linebreak-style": ["error"],
     "lines-around-comment": ["error", {
-      "beforeLineComment": true
+      "beforeLineComment": true,
+      "allowBlockStart": true
     }],
     "lines-around-directive": ["error"],
     "new-cap": ["error"],
