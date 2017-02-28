@@ -71,7 +71,9 @@ module.exports = {
     "no-var": ["error"],
     "no-whitespace-before-property": ["error"],
     "object-curly-newline": ["error", {
-      "ObjectExpression": "always",
+      "ObjectExpression": {
+        "minProperties": 2
+      },
       "ObjectPattern": "never"
     }],
     "object-curly-spacing": ["error"],
