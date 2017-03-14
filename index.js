@@ -76,7 +76,7 @@ module.exports = {
       },
       "ObjectPattern": "never"
     }],
-    "object-curly-spacing": ["error"],
+    "object-curly-spacing": ["error", "always"],
     "object-shorthand": ["error"],
     "operator-assignment": ["error"],
     "one-var": ["error"],
